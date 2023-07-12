@@ -5,10 +5,11 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Baner from "./components/baner";
 import Slider from "./components/Slider";
+import Premiere from "./components/Premiere";
 
 function App() {
   return (
-    <div className="w-[100%]  ">
+    <div className=" ">
       <Header />
       <Navbar />
       <Hero />
@@ -20,6 +21,7 @@ function App() {
         <Baner />
         <Slider />
       </div>
+      <Premiere />
     </div>
   );
 }
