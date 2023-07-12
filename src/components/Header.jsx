@@ -40,6 +40,7 @@ function Header() {
       </div>
 
       {/* side nav  bar */}
+      <SlideNav />
     </div>
   );
 }

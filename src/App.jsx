@@ -13,7 +13,7 @@ function App() {
   return (
     <div className=" ">
       <Header />
-      <div className="sidnav h-[100%] fixed z-20 bg-[#fff]  transition-[0.5s] pt-[60px] w-[300px] top-0 right-0 text-white">
+      {/* <div className="sidnav h-[100%] fixed z-20 bg-[#fff]  transition-[0.5s] pt-[60px] w-[300px] top-0 right-0 text-white">
         <a
           className="absolute top-0 right-[25px] font-[36px] ml-[50px]"
           onClick={() => {}}
@@ -24,7 +24,7 @@ function App() {
         <a href="#">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
-      </div>
+      </div> */}
       <Navbar />
       <Hero />
       <div className="w-[100%] flex justify-center items-center flex-col">
