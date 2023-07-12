@@ -3,11 +3,11 @@ import React from "react";
 function Header() {
   return (
     <div className="w-[100%] flex justify-center items-center bg-[rgb(51,53,69)] ">
-      <div className="w-[80%] h-[80px] flex justify-between items-center ">
+      <div className="w-[80%] h-[60px] flex justify-between items-center ">
         <div className="flex justify-center items-center overflow-hidden text-gray-950">
           <img
             src="https://cio.eletsonline.com/wp-content/uploads/2019/12/bookmyshow.png"
-            className="w-[150px] h-[80px] "
+            className="w-[150px] h-[50px] "
           />
           <div className="bg-white w-[500px] h-[40px] ml-[10px] flex items-center rounded-[5px]">
             <i className="bx bx-search w-[20px] ml-[10px] "></i>
