@@ -30,27 +30,6 @@ function Hero() {
   //   };
   return (
     <div className="slide-container">
-      {/* <Slider {...setting} className="">
-        <div className="overflow-hidden">
-          <img
-            className="w-[100%] h-[300px]"
-            src=""
-          />
-        </div>
-        <div className="overflow-hidden">
-          <img
-            className="w-[100%] h-[300px]"
-            src=""
-          />
-        </div>
-        <div className="overflow-hidden">
-          <img
-            className="w-[100%] h-[300px]"
-            src=""
-          />
-        </div>
-      </Slider> */}
-
       <Slide>
         {slideImages.map((slideImage, index) => (
           <div key={index}>
