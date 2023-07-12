@@ -6,6 +6,8 @@ import Hero from "./components/Hero";
 import Baner from "./components/baner";
 import Slider from "./components/Slider";
 import Premiere from "./components/Premiere";
+import TradingSearch from "./components/TradingSearch";
+import SlideNav from "./components/SlideNav";
 
 function App() {
   return (
@@ -22,6 +24,15 @@ function App() {
         <Slider />
       </div>
       <Premiere />
+      <div className="w-[100%] flex justify-center items-center flex-col">
+        <Slider />
+        <Slider />
+        <Slider />
+        <Slider />
+        <Slider />
+        <Slider />
+      </div>
+      <TradingSearch />
     </div>
   );
 }

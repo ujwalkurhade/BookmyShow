@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import SlideNav from "./SlideNav";
 
 function Header() {
+  const [open, setopen] = useState(false);
+  // const HandleOnclick = () => {
+  //   if (open) {
+  //     <SlideNav />;
+  //     setopen(false);
+  //   }
+  // };
+
   return (
     <div className="w-[100%] flex justify-center items-center bg-[rgb(51,53,69)] ">
       <div className="w-[80%] h-[60px] flex justify-between items-center ">
@@ -25,7 +34,9 @@ function Header() {
             Sing In
           </button>
           <a href="" className="ml-[20px] p-[6px] ">
-            <i className="bx bx-menu  "></i>
+            <i className="bx bx-menu  ">
+              {open ? <SlideNav /> : ""}
+            </i>
           </a>
         </div>
       </div>
