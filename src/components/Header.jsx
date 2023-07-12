@@ -34,12 +34,12 @@ function Header() {
             Sing In
           </button>
           <a href="" className="ml-[20px] p-[6px] ">
-            <i className="bx bx-menu  ">
-              {open ? <SlideNav /> : ""}
-            </i>
+            <i className="bx bx-menu  "></i>
           </a>
         </div>
       </div>
+
+      {/* side nav  bar */}
     </div>
   );
 }
