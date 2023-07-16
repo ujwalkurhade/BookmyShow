@@ -3,6 +3,7 @@ import SlideNav from "./SlideNav";
 
 function Header() {
   const [open, setopen] = useState(false);
+
   // const HandleOnclick = () => {
   //   if (open) {
   //     <SlideNav />;
@@ -33,14 +34,17 @@ function Header() {
           <button className=" w-[80px] p-[4px] ml-[20px] bg-red-400 rounded-[5px]">
             Sing In
           </button>
-          <a href="" className="ml-[20px] p-[6px] ">
-            <i className="bx bx-menu  "></i>
-          </a>
+          {!open ? (
+            <SlideNav setopen={setopen} />
+          ) : (
+            <a href="" className="ml-[20px] p-[6px] ">
+              <i className="bx bx-menu  "></i>
+            </a>
+          )}
         </div>
       </div>
 
       {/* side nav  bar */}
-      <SlideNav />
     </div>
   );
 }

@@ -22,6 +22,12 @@ body {
 .sidnav a :hover {
   color: #f1f1f1;
 }
+.hide {
+  display: none;
+}
+.block {
+  display: block;
+}
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
