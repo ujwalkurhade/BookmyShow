@@ -5,13 +5,6 @@ import { flushSync } from "react-dom";
 function Header() {
   const [open, setopen] = useState(false);
 
-  // const HandleOnclick = () => {
-  //   if (open) {
-  //     <SlideNav />;
-  //     setopen(false);
-  //   }
-  // };
-
   return (
     <div className="w-[100%] flex justify-center items-center bg-[rgb(51,53,69)] ">
       <div className="w-[80%] h-[60px] flex justify-between items-center ">
