@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SlideNav from "./SlideNav";
+import { flushSync } from "react-dom";
 
 function Header() {
   const [open, setopen] = useState(false);
