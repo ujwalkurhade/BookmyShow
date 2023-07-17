@@ -10,7 +10,7 @@ function SlideNav({ setopen }) {
           setopen(true);
         }}
       >
-        &times;
+        <i class="bx bx-x"></i>
       </a>
       <a href="#">About</a>
       <a href="#">Services</a>
