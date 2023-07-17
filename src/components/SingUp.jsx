@@ -18,7 +18,7 @@ function SingUp() {
             href="http:// "
             className=" p-[2px] overflow-hidden"
           >
-            <i className="bx bx-x text-gray-500 "></i>
+            <i className="bx bx-x  text-gray-500 "></i>
           </a>
         </div>
         <div className="w-[90%]  p-[10px] rounded-[10px] mt-[30px] border-red-600 border-2 ">
@@ -30,8 +30,8 @@ function SingUp() {
           OR
         </div>
         <div className="mt-[20px]">dh</div>
-        <div className="mt-[100px] mb-[10px] ">
-          <p className=" text-center">
+        <div className="mt-[80px] mb-[10px] ">
+          <p className=" text-center text-[12px]">
             I agree to the <a href="">Terms & Condition</a>
             & <a href="">Privacy Policy</a>
           </p>
