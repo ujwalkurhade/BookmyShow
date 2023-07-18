@@ -32,9 +32,9 @@ function App() {
         <Slider />
         <Slider />
         <Slider />
-      </div>
-      <TradingSearch /> */}
-      <SingUp />
+      </div>*/}
+      <TradingSearch />
+      {/* <SingUp /> */}
     </div>
   );
 }
