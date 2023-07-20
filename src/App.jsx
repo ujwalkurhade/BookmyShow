@@ -9,6 +9,7 @@ import Premiere from "./components/Premiere";
 import TradingSearch from "./components/TradingSearch";
 import SlideNav from "./components/SlideNav";
 import SingUp from "./components/SingUp";
+import Filter from "./Pages/Activies/Filter";
 
 function App() {
   return (
@@ -32,9 +33,11 @@ function App() {
         <Slider />
         <Slider />
         <Slider />
-      </div>*/}
-      <TradingSearch />
+      </div>
+      <TradingSearch /> */}
       {/* <SingUp /> */}
+      <Filter />
+      {/* <Slider /> */}
     </div>
   );
 }
