@@ -44,11 +44,11 @@ function Slider() {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 1024 },
       items: 5,
-      slidesToSlide: 2,
+      slidesToSlide: 5,
     },
     desktop: {
       breakpoint: { max: 1024, min: 800 },
-      items: 4,
+      items: 5,
     },
     tablet: {
       breakpoint: { max: 800, min: 464 },
