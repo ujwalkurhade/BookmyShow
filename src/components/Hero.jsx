@@ -2,9 +2,6 @@ import React from "react";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
 const slideImages = [
   {
     url: "https://assets-in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-chord-do-aanchal-india-tour-0-2023-5-16-t-13-44-6.jpg",
