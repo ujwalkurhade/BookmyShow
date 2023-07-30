@@ -7,14 +7,14 @@ import Baner from "./components/baner";
 import Slider from "./components/Slider";
 import Premiere from "./components/Premiere";
 import TradingSearch from "./components/TradingSearch";
-import SingUp from "./components/SingUp";
 import Footer from "./components/Footer";
-import Filter from "./Pages/Activies/Filter";
+import Event from "./Pages/events/Event";
+import Buzz from "./Pages/buzz/Buzz";
 
 function App() {
   return (
     <div className=" ">
-      <Header />
+      {/* <Header />
       <Navbar />
       <Hero />
       <div className="w-[100%] flex justify-center items-center flex-col">
@@ -35,10 +35,8 @@ function App() {
         <Slider />
       </div>
       <TradingSearch />
-
-      {/* <Filter /> */}
-      {/* <Slider /> */}
-      <Footer />
+      <Footer /> */}
+      <Buzz />
     </div>
   );
 }
