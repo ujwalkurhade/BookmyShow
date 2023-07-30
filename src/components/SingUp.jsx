@@ -4,26 +4,31 @@ import applelogo from "../applelogo.png";
 import googlrlogo from "../googlelogo.png";
 import maillogo from "../maillogo.png";
 
-function SingUp() {
+function SingUp({ setsingup }) {
   return (
-    <div className="flex justify-center ml-[35rem] w-[25%] mt-[5rem]  rounded-[10px] border-gray-800 border-2 overflow-hidden">
+    <div className=" absolute z-30 flex justify-center w-[25%] mt-[40rem] items-center  rounded-[10px] border-gray-800 border-2 overflow-hidden bg-slate-50 text-black">
       <div
         className="flex justify-center items-center flex-col
         w-[100%] p-[10px] m-[10px]"
       >
         <div className="flex  items-center p-[2px] rounded-[10px]  w-[90%] ">
           <a
-            href="http://"
+            href=""
             className=" w-[90%] text-center text-black"
           >
             Get Started
           </a>
-          <a
-            href="http:// "
+          <div
+            href=" "
             className=" p-[2px] overflow-hidden"
           >
-            <i className="bx bx-x  text-gray-500 "></i>
-          </a>
+            <i
+              className="bx bx-x  text-gray-500 "
+              onClick={() => {
+                setsingup(false);
+              }}
+            ></i>
+          </div>
         </div>
         <div className="w-[90%]  p-[10px] rounded-[10px] mt-[6px]  ">
           <div className="w-[100%] h-[45px] rounded-[5px] mt-[25px] border-gray-800 border-2 flex  items-center">

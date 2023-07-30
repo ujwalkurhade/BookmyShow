@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import SlideNav from "./SlideNav";
-import { flushSync } from "react-dom";
+import SingUp from "./SingUp";
 
 function Header() {
   const [open, setopen] = useState(false);
+  const [singup, setsingup] = useState(false);
 
   return (
     <div className="w-[100%] flex justify-center items-center bg-[rgb(51,53,69)] ">
@@ -25,20 +26,30 @@ function Header() {
           <a href="" className="">
             Nagpur <i className="bx bx-chevron-down "></i>
           </a>
-          <button className=" w-[80px] p-[4px] ml-[20px] bg-red-400 rounded-[5px]">
+          <button
+            className=" w-[80px] p-[4px] ml-[20px] bg-red-400 rounded-[5px]"
+            onClick={() => {
+              setsingup(true);
+            }}
+          >
             Sing In
           </button>
-          {!open ? (
-            <SlideNav setopen={setopen} />
-          ) : (
-            <a href="" className="ml-[20px] p-[6px] ">
-              <i className="bx bx-menu  "></i>
-            </a>
-          )}
+
+          <button
+            onClick={() => {
+              setopen(true);
+            }}
+            className="ml-[20px] p-[6px] "
+          >
+            <i className="bx bx-menu  "></i>
+          </button>
         </div>
       </div>
-
+      {open ? (
+        <SlideNav open={open} setopen={setopen} />
+      ) : null}
       {/* side nav  bar */}
+      {singup ? <SingUp setsingup={setsingup} /> : null}
     </div>
   );
 }
