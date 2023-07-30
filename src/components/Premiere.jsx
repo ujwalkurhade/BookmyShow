@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "./Slider";
+import Card from "../Pages/Activies/Card";
 
 function Premiere() {
   return (
@@ -12,7 +13,7 @@ function Premiere() {
             <h2>Premieres</h2>
             <p>Brand new releases every Friday</p>
           </div>
-          <Slider />
+          <Card />
         </div>
       </div>
     </div>

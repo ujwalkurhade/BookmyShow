@@ -9,6 +9,7 @@ import Premiere from "./components/Premiere";
 import TradingSearch from "./components/TradingSearch";
 import SingUp from "./components/SingUp";
 import Footer from "./components/Footer";
+import Filter from "./Pages/Activies/Filter";
 
 function App() {
   return (
