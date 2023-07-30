@@ -2,10 +2,10 @@ import React from "react";
 import Accordion from "./Accordion";
 import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
-import Action from "./Action";
 import Footer from "../../components/Footer";
+import EventsData from "./EventsData";
 
-function Filter() {
+function Event() {
   return (
     <div
       className=" w-[100%] h-[100%] flex justify-center flex-col items-center "
@@ -15,7 +15,7 @@ function Filter() {
       <Navbar />
       <div className="w-[85%] flex gap-[50px]  mt-[4rem]">
         <Accordion />
-        <Action />
+        <EventsData />
       </div>
       <div className="p-10">
         <Footer />
@@ -24,4 +24,4 @@ function Filter() {
   );
 }
 
-export default Filter;
+export default Event;
