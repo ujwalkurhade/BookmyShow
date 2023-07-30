@@ -60,7 +60,7 @@ function Slider() {
     },
   };
   return (
-    <div className="w-[80%] mt-[20px] mb-[10px]">
+    <div className="w-[80%] mt-[20px] mb-[10px] z-10">
       <div className="flex justify-between items-center">
         <h2>Recamend Movies</h2>
         <a href="" className="text-red-600">

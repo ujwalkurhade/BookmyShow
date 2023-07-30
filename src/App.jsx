@@ -8,6 +8,7 @@ import Slider from "./components/Slider";
 import Premiere from "./components/Premiere";
 import TradingSearch from "./components/TradingSearch";
 import SingUp from "./components/SingUp";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -33,9 +34,10 @@ function App() {
         <Slider />
       </div>
       <TradingSearch />
-      <SingUp />
+
       {/* <Filter /> */}
       {/* <Slider /> */}
+      <Footer />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import maillogo from "../maillogo.png";
 
 function SingUp({ setsingup }) {
   return (
-    <div className=" absolute z-10 flex justify-center w-[25%] mt-[40rem] items-center  rounded-[10px] border-gray-800 border-2 overflow-hidden bg-slate-50 text-black">
+    <div className=" absolute z-30 flex justify-center w-[25%] mt-[40rem] items-center  rounded-[10px] border-gray-800 border-2 overflow-hidden bg-slate-50 text-black">
       <div
         className="flex justify-center items-center flex-col
         w-[100%] p-[10px] m-[10px]"
