@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="max-w-screen-2xl p-4 mt-5 bg-[rgb(51,51,56)] hover:text-white w-[100%]">
+    <div className="max-w-screen-2xl p-10 mt-5 bg-[rgb(51,51,56)] hover:text-white w-[100%]">
       <h1 className="text-[rgb(165,165,165)] uppercase font-normal leading-[1.1] tracking-widest text-[12px] pt-5">
         Movies Now Showing in Nagpur
       </h1>

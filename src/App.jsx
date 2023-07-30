@@ -14,7 +14,7 @@ import Filter from "./Pages/Activies/Filter";
 function App() {
   return (
     <div className=" ">
-      {/* <Header />
+      <Header />
       <Navbar />
       <Hero />
       <div className="w-[100%] flex justify-center items-center flex-col">
@@ -34,11 +34,11 @@ function App() {
         <Slider />
         <Slider />
       </div>
-      <TradingSearch /> */}
+      <TradingSearch />
 
-      <Filter />
+      {/* <Filter /> */}
       {/* <Slider /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
