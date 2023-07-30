@@ -1,7 +1,6 @@
 import React from "react";
 
 function SliderMovies({ url, caption }) {
-  console.log(caption);
   return (
     <div className=" p-[0.5rem]">
       <img

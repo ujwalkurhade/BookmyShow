@@ -1,4 +1,5 @@
 import React from "react";
+// import Filter from "./Pages/Activies/Filter";
 
 function Navbar() {
   return (
@@ -10,7 +11,7 @@ function Navbar() {
           <a href="">Events</a>
           <a href="">Plays</a>
           <a href="">Sport</a>
-          <a href="#Filter">Activites</a>
+          <a href="">Activites</a>
           <a href="">Buzz</a>
         </div>
         <div className="flex justify-center items-center gap-4">
