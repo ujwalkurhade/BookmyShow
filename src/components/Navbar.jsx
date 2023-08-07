@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import Filter from "./Pages/Activies/Filter";
 
 function Navbar() {
@@ -13,6 +14,8 @@ function Navbar() {
           <a href="">Sport</a>
           <a href="">Activites</a>
           <a href="">Buzz</a>
+          <Link to={"about"}>Home</Link>
+          <Link to={"/"}>Home</Link>
         </div>
         <div className="flex justify-center items-center gap-4">
           <a href="">ListYourShow</a>

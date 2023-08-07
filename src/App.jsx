@@ -11,6 +11,14 @@ import Footer from "./components/Footer";
 import Event from "./Pages/events/Event";
 import Buzz from "./Pages/buzz/Buzz";
 import Login from "./components/Login";
+import { Route, Router, Routes } from "react-router-dom";
+
+function About() {
+  return <div>About</div>;
+}
+function Home() {
+  return <div>Home</div>;
+}
 
 function App() {
   return (
@@ -19,8 +27,13 @@ function App() {
 
       <Header />
       <Navbar />
-      <Hero />
-      <div className="w-[100%] flex justify-center items-center flex-col">
+      <Routes>
+        <Route path="/" element={<About />} />
+
+        <Route path="about" element={<Home />} />
+      </Routes>
+      {/* <Hero /> */}
+      {/* <div className="w-[100%] flex justify-center items-center flex-col">
         <Slider />
         <Baner />
         <Slider />
@@ -37,7 +50,7 @@ function App() {
         <Slider />
         <Slider />
       </div>
-      <TradingSearch />
+      <TradingSearch /> */}
       <Footer />
       {/* <Buzz /> */}
     </div>
