@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import SlideNav from "./SlideNav";
 import SingUp from "./SingUp";
+import Login from "./Login";
 
 function Header() {
   const [open, setopen] = useState(false);
   const [singup, setsingup] = useState(false);
+  const [login, setlogin] = useState(true);
 
   return (
     <div className="w-[100%] flex justify-center items-center bg-[rgb(51,53,69)] ">
@@ -22,18 +24,23 @@ function Header() {
             />
           </div>
         </div>
-        <div className="text-white ">
+        <div className="text-white flex items-center">
           <a href="" className="">
             Nagpur <i className="bx bx-chevron-down "></i>
           </a>
-          <button
-            className=" w-[80px] p-[4px] ml-[20px] bg-red-400 rounded-[5px]"
-            onClick={() => {
-              setsingup(true);
-            }}
-          >
-            Sing In
-          </button>
+
+          {login ? (
+            <button
+              className=" w-[80px] p-[4px] ml-[20px] bg-red-400 rounded-[5px]"
+              onClick={() => {
+                setsingup(true);
+              }}
+            >
+              Sing In
+            </button>
+          ) : (
+            <Login />
+          )}
 
           <button
             onClick={() => {
