@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "./Slider";
-import Card from "../Pages/Activies/Card";
+import Card from "./Card";
 
 function Premiere() {
   return (
