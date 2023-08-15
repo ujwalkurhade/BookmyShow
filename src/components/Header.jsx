@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import SlideNav from "./SlideNav";
 import SingUp from "./SingUp";
 import Login from "./Login";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [open, setopen] = useState(false);
@@ -12,10 +13,9 @@ function Header() {
     <div className="w-[100%] flex justify-center items-center bg-[rgb(51,53,69)] ">
       <div className="w-[80%] h-[60px] flex justify-between items-center ">
         <div className="flex justify-center items-center overflow-hidden text-gray-950">
-          <img
-            src="https://cio.eletsonline.com/wp-content/uploads/2019/12/bookmyshow.png"
-            className="w-[150px] h-[50px] "
-          />
+          <Link to={"/"}>
+            <img src="https://cio.eletsonline.com/wp-content/uploads/2019/12/bookmyshow.png" className="w-[150px] h-[50px] " />
+          </Link>
           <div className="bg-white w-[500px] h-[40px] ml-[10px] flex items-center rounded-[5px]">
             <i className="bx bx-search w-[20px] ml-[10px] "></i>
             <input
@@ -52,9 +52,7 @@ function Header() {
           </button>
         </div>
       </div>
-      {open ? (
-        <SlideNav open={open} setopen={setopen} />
-      ) : null}
+      {open ? <SlideNav open={open} setopen={setopen} /> : null}
       {/* side nav  bar */}
       {singup ? <SingUp setsingup={setsingup} /> : null}
     </div>
