@@ -10,7 +10,7 @@ import Footer from "../../components/Footer";
 
 function Home() {
   return (
-    <div>
+    <div className="w-[100%]">
       <Header />
       <Navbar />
       <Hero />

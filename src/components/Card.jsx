@@ -39,33 +39,21 @@ function Card() {
       heading: "UA",
       subheding: "English,Hindi,Tamil,Telgu",
     },
-
-    {
-      id: 4,
-      img_url:
-        "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:oi-discovery-catalog@@icons@@star-icon-202203010609.png,ox-24,oy-615,ow-29:ote-OS4xLzEwICA4My41SyBWb3Rlcw%3D%3D,ots-29,otc-FFFFFF,oy-612,ox-70:q-80/et00329481-bcufavugyg-portrait.jpg",
-      title: "Mission Impossible: ",
-      name: "Dead Reckoning - Part One",
-      heading: "UA",
-      subheding: "English,Hindi,Tamil,Telgu",
-    },
   ];
   return (
-    <div>
-      <div className="w-[95%]  flex gap-6 mt-9 ">
-        {card.map((item, index) => (
-          <div key={index} className="flex justify-between items-center  w-[100%]]">
-            <CardItem
-              url={item.img_url}
-              title={item.title}
-              name={item.name}
-              heading={item.heading}
-              subheading={item.subheading}
-              key={item.id}
-            />
-          </div>
-        ))}
-      </div>
+    <div className="w-[95%]  flex items-center justify-center gap-6 mt-10 ">
+      {card.map((item, index) => (
+        <div key={index} className="flex justify-between items-center  w-[100%]]">
+          <CardItem
+            url={item.img_url}
+            title={item.title}
+            name={item.name}
+            heading={item.heading}
+            subheading={item.subheading}
+            key={item.id}
+          />
+        </div>
+      ))}
     </div>
   );
 }

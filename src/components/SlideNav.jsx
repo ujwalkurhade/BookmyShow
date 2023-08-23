@@ -2,16 +2,15 @@ import React from "react";
 
 function SlideNav({ open, setopen }) {
   return (
-    <div className="sidnav  h-[100%] fixed z-50 bg-[#fff] overflow-x-hidden transition-[0.5s] pt-[60px] w-[300px] top-0 right-0 text-white">
-      <div
-        className="absolute top-10 right-[25px] font-[36px]
-        ml-[50px] text-black"
-      >
+    <div
+      className="sidnav  h-[100%] fixed z-50 bg-[#fff] overflow-x-hidden transition-[0.5s] pt-[10px] w-[300px] top-0 right-0 text-white"
+      data-aos="fade-left"
+    >
+      <div className="absolute top-4 right-[25px]  ml-[60px] text-black">
         <i
-          class="bx bx-x"
+          className="bx bx-x "
           onClick={() => {
             setopen(false);
-            console.log(open);
           }}
         ></i>
       </div>

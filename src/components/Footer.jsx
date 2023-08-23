@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className=" w-[100%] p-10 mt-5  bg-[rgb(51,51,56)] hover:text-white w-[100%]">
+    <div className=" w-[100%] flex flex-col justify-start  p-10 mt-5  bg-[rgb(51,51,56)] hover:text-white">
       <h1 className="text-[rgb(165,165,165)] uppercase font-normal leading-[1.1] tracking-widest text-[12px] pt-5">
         Movies Now Showing in Nagpur
       </h1>

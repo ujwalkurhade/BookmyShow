@@ -13,7 +13,9 @@ function Premiere() {
             <h2>Premieres</h2>
             <p>Brand new releases every Friday</p>
           </div>
-          <Card />
+          <div className="flex justify-center items-center">
+            <Card />
+          </div>
         </div>
       </div>
     </div>
